@@ -389,14 +389,14 @@ export default {
         padding 2rem 0
         margin-top 2.5rem
         display flex
-        flex-wrap wrap
+        flex-wrap nowrap
         align-items flex-start
         align-content stretch
         justify-content space-between
       .feature
         flex-grow 1
-        flex-basis 30%
-        max-width 30%
+        flex-basis 25%
+        max-width 25%
         text-align center
         a
           // color lighten($bannerTextColor,10%)

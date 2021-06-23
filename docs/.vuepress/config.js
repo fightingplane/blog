@@ -3,16 +3,15 @@
  * @Description: 
  * @Date: 2021-02-06 14:58:09
  * @LastEditors: WangXiaoYuan
- * @LastEditTime: 2021-06-20 19:17:42
+ * @LastEditTime: 2021-06-24 00:39:58
  */
 const head = require('./config/head.js');
 const plugins = require('./config/plugins.js');
 const themeConfig = require('./config/themeConfig.js');
 
 module.exports = {
-  theme: 'vdoing', // 使用依赖包主题
-  // theme: require.resolve('../../theme-vdoing'), // 使用本地主题
-
+  // theme: 'vdoing', // 使用依赖包主题
+  theme: require.resolve('../../theme-vdoing'), // 使用本地主题
   title: "老王的博客",
   description: '全栈工程师的技术博客、随笔',
   // base: '/', // 格式：'/<仓库名>/'， 默认'/'
