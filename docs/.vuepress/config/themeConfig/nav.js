@@ -1,3 +1,10 @@
+/*
+ * @Author: WangXiaoYuan
+ * @Description: 
+ * @Date: 2021-02-06 14:58:09
+ * @LastEditors: WangXiaoYuan
+ * @LastEditTime: 2021-06-30 01:11:44
+ */
 // nav
 module.exports = [
   { text: '首页', link: '/' },
@@ -7,10 +14,17 @@ module.exports = [
     items: [
       // 说明：以下所有link的值只是在相应md文件定义的永久链接（不是什么特殊生成的编码）。另外，注意结尾是有斜杠的
       {
+        text: '页面',
+        items: [
+          { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
+          { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+        ] ,
+      },
+      {
         text: '前端文章',
         items: [
           { text: 'JavaScript', link: '/pages/8143cc480faf9a11/' },
-          { text: 'Vue', link: '/pages/5d463fbdb172d43b/' },
+          { text: 'Vue', link: '/pages/bd1af2f75fd361fc/' },
         ],
       },
       {
@@ -21,7 +35,7 @@ module.exports = [
           { text: '《ES6 教程》笔记', link: '/note/es6/' },
           { text: '《Vue》笔记', link: '/note/vue/' },
           {
-            text: '《TypeScript 从零实现 axios》',
+            text: '《TypeScript 从零实现 axios》', 
             link: '/note/typescript-axios/',
           },
           {
@@ -37,21 +51,24 @@ module.exports = [
     ],
   },
   {
-    text: '页面',
-    link: '/ui/',
+    text: '后端',
+    link: '/backend/',
     items: [
-      { text: 'HTML', link: '/pages/8309a5b876fc95e3/' },
-      { text: 'CSS', link: '/pages/0a83b083bdf257cb/' },
+      { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
     ],
   },
   {
-    text: '技术',
-    link: '/technology/',
+    text: '架构',
+    link: '/architecture/',
     items: [
-      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
-      { text: 'GitHub技巧', link: '/pages/4c778760be26d8b3/' },
-      { text: 'Nodejs', link: '/pages/117708e0af7f0bd9/' },
       { text: '博客搭建', link: '/pages/41f87d890d0a02af/' },
+    ],
+  },
+  {
+    text: '运维',
+    link: '/devops/',
+    items: [
+      { text: 'GitHub技巧', link: '/pages/59d6dd/' },
     ],
   },
   {
@@ -59,6 +76,7 @@ module.exports = [
     link: '/more/',
     items: [
       { text: '学习', link: '/pages/f2a556/' },
+      { text: '技术文档', link: '/pages/9a7ee40fc232253e/' },
       { text: '面试', link: '/pages/aea6571b7a8bae86/' },
       { text: '心情杂货', link: '/pages/2d615df9a36a98ed/' },
       { text: '实用技巧', link: '/pages/baaa02/' },

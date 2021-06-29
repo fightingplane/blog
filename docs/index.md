@@ -17,11 +17,11 @@ features: # 可选的
     link: /backend/
     imgUrl: /img/backend.jpeg
   - title: 架构
-    details: 技术文档、教程、技巧、总结等文章
+    details: 系统架构相关的技术文档、教程、技巧、总结等文章
     link: /architecture/
     imgUrl: /img/other.png
   - title: 运维
-    details: 技术文档、教程、技巧、总结等文章
+    details: 运维相关的技术文档、教程、技巧、总结等文章
     link: /devops/
     imgUrl: /img/devops.jpeg
 
