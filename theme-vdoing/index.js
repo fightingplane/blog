@@ -165,8 +165,6 @@ module.exports = (options, ctx) => {
           }
         },
       ],
-
-
     ]
   }
 }
