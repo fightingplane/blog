@@ -85,7 +85,8 @@ module.exports = [
       options: {
         clientID: '98e111742d77983c1723',
         clientSecret: 'da23d9e9eaf762da9d2edd914f26ab928b6923ea',
-        repo: 'blogcomments', // GitHub 仓库
+        proxy: 'https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token',
+        repo: 'blog', // GitHub 仓库
         owner: 'fightingplane', // GitHub仓库所有者
         admin: ['fightingplane'], // 对仓库有写权限的人
         // distractionFreeMode: true,
