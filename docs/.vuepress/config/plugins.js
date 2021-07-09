@@ -32,8 +32,8 @@ module.exports = [
           frontUrl: 'https://cn.bing.com/search?q=',
         },
         {
-          title: '通过百度搜索本站的',
-          frontUrl: 'https://www.baidu.com/s?wd=site%3Axugaoyi.com%20',
+          title: '搜索本站',
+          frontUrl: 'https://www.baidu.com/s?wd=site%3Ablog.wangxiaoyuan.top%20',
         },
       ],
     },

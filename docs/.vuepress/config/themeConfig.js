@@ -3,7 +3,7 @@
  * @Description: 
  * @Date: 2021-02-06 14:58:09
  * @LastEditors: WangXiaoYuan
- * @LastEditTime: 2021-06-24 00:38:20
+ * @LastEditTime: 2021-07-02 22:03:00
  */
 const nav = require('./themeConfig/nav.js');
 const sidebar = require('./themeConfig/sidebar.js');
@@ -54,13 +54,13 @@ module.exports = {
 
   author: {
     // 文章默认的作者信息，可在md文件中单独配置此信息 String | {name: String, link: String}
-    name: '王晓渊', // 必需
+    name: '技术老油条', // 必需
     link: 'https://github.com/fightingplane', // 可选的
   },
   blogger: {
     // 博主信息，显示在首页侧边栏
     avatar: '/img/me.jpeg',
-    name: '王晓渊',
+    name: '技术老油条',
     slogan: '做个合格的技术人',
   },
   social: {

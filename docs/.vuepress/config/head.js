@@ -3,7 +3,7 @@
  * @Description: 
  * @Date: 2021-02-06 14:58:09
  * @LastEditors: WangXiaoYuan
- * @LastEditTime: 2021-06-22 00:04:00
+ * @LastEditTime: 2021-07-02 16:33:39
  */
 // head
 module.exports = [
@@ -16,12 +16,12 @@ module.exports = [
       content: '后端,运维,技术,架构,程序员,前端博客,个人技术博客,前端,前端开发,前端框架,web前端,前端面试题,技术文档,学习,面试,JavaScript,js,ES6,TypeScript,vue,python,css3,html5,Node,git,github,markdown',
     },
   ],
-  ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
+  // ['meta', { name: 'baidu-site-verification', content: '7F55weZDDc' }], // 百度统计的站长验证
   ['meta', { name: 'theme-color', content: '#11a8cd' }], // 移动浏览器主题颜色
   [
     'script',
     {
-      'data-ad-client': 'ca-pub-7828333725993554',
+      'data-ad-client': 'ca-pub-7695505650803945',
       async: 'async',
       src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js',
     },
